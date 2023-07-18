@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".owl-carousel").owlCarousel({
+                    items: 3,
+                    loop: true,
+                    margin: 20,
+                    nav: true,
+                    navText: [
+                        '<i class="bi bi-arrow-left" ></i>',
+                        '<i class="bi bi-arrow-right" ></i>'
+                    ],
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        600: {
+                            items: 2,
+                            nav: true
+                        },
+                        1000: {
+                            items: 3,
+                            nav: true,
+                            loop: true
+                        }
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed container-fluid">
+            <div class="container">
+                <a class="navbar-brand font-weight-bold" href="#">
+                    <h4 class=" font-weight-bold">
+                        <span class="text-danger ">10</span>
+                        EQS
+                    </h4>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark  mr-2" href="#">Item 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark  mr-2" href="#">Item 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark  mr-2" href="#">Item 3</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle text-dark "
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Item 4
+                            </a>
+                            <div class="dropdown-menu fixed-dropdown-menu">
+                                <a class="dropdown-item text-dark  mr-2" href="#">Subitem 1</a>
+                                <a class="dropdown-item" href="#">Subitem 2</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Subitem 3</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-danger border-0 nav-btn" type="button">Contact US</button>
+            </div>
+        </nav>
+        <section class="home mb-5 container-fluid ">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-4 home-content  col-8 ">
+                        <h1 class="title text-dark font-weight-bold class mt-5 pt-5  ">
+                            Growth
+                            <br>
+                            Innovation
+                        </h1>
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio, cumque pariatur expedita consectetur fugit facilis tenetur eos exercitationem sunt. Libero rem accusantium alias cum laboriosam?</p>
+                        <button class="bg-danger text-white border-0 p-2 my-3">Contact us</button>
+                    </div>
+                </div>
+                <img class="bg-img img-fluid " src="./Assets/home.png" alt="...">
+            </div>
+        </section>
+        <section>
+            <div class="container  text-dark pb-5 text-justify">
+                <h4 class="text-dark text-center py-3 py-sm-5 font-weight-bold ">What We Do</h4>
+                <div class="row ">
+                    <div class="col-md-4 pb-4 ">
+                        <div class="px-3 ">
+                            <h6 class="font-weight-bold my-sm-3">Idea Generation</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestiae a, aspernatur libero blanditiis maxime, quibusdam assumenda distinctio quam error, iusto vitae qui velit soluta molestias ipsum vero odio tenetur eaque at dolore. Culpa rem consequuntur corporis totam fugiat?</p>
+                            <p class="text-danger casestudy pt-3">
+                                CaseStudy:
+                                <span class="text-dark">Meta Verse Market Opportunity</span>
+                            </p>
+                            <p class="d-flex assessment ">
+                                Assessment
+                                <span class="text-danger px-2 ">
+                                    <i class="bi bi-arrow-right h-100"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4 ">
+                        <div class="px-3 pb-sm-5">
+                            <h6 class="font-weight-bold my-sm-3">Idea Generation</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestiae a, aspernatur libero blanditiis maxime, quibusdam assumenda distinctio quam error, iusto vitae qui velit soluta molestias ipsum vero odio tenetur eaque at dolore. Culpa rem consequuntur corporis totam fugiat?</p>
+                            <p class="text-danger casestudy  pt-3">
+                                CaseStudy:
+                                <span class="text-dark">Meta Verse Market Opportunity</span>
+                            </p>
+                            <p class="d-flex assessment">
+                                Assessment
+                                <span class="text-danger  px-2">
+                                    <i class="bi bi-arrow-right   "></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4  ">
+                        <div class="px-3 pb-sm-5">
+                            <h6 class="font-weight-bold my-sm-3">Idea Generation</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestiae a, aspernatur libero blanditiis maxime, quibusdam assumenda distinctio quam error, iusto vitae qui velit soluta molestias ipsum vero odio tenetur eaque at dolore. Culpa rem consequuntur corporis totam fugiat?</p>
+                            <p class="text-danger casestudy pt-3">
+                                CaseStudy:
+                                <span class="text-dark">Meta Verse Market Opportunity</span>
+                            </p>
+                            <p class="d-flex assessment">
+                                Assessment
+                                <span class="text-danger  px-2">
+                                    <i class="bi bi-arrow-right   "></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4 ">
+                        <div class="px-3 pb-sm-5">
+                            <h6 class="font-weight-bold my-sm-3">Idea Generation</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestiae a, aspernatur libero blanditiis maxime, quibusdam assumenda distinctio quam error, iusto vitae qui velit soluta molestias ipsum vero odio tenetur eaque at dolore. Culpa rem consequuntur corporis totam fugiat?</p>
+                            <p class="text-danger casestudy pt-3">
+                                CaseStudy:
+                                <span class="text-dark">Meta Verse Market Opportunity</span>
+                            </p>
+                            <p class="d-flex assessment">
+                                Assessment
+                                <span class="text-danger  px-2">
+                                    <i class="bi bi-arrow-right   "></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4 ">
+                        <div class="px-3 pb-sm-5">
+                            <h6 class="font-weight-bold my-sm-3">Idea Generation</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestiae a, aspernatur libero blanditiis maxime, quibusdam assumenda distinctio quam error, iusto vitae qui velit soluta molestias ipsum vero odio tenetur eaque at dolore. Culpa rem consequuntur corporis totam fugiat?</p>
+                            <p class="text-danger casestudy pt-3">
+                                CaseStudy:
+                                <span class="text-dark">Meta Verse Market Opportunity</span>
+                            </p>
+                            <p class="d-flex assessment">
+                                Assessment
+                                <span class="text-danger  px-2">
+                                    <i class="bi bi-arrow-right   "></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 pb-4 ">
+                        <div class="px-3 pb-sm-5">
+                            <h6 class="font-weight-bold my-sm-3">Idea Generation</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestiae a, aspernatur libero blanditiis maxime, quibusdam assumenda distinctio quam error, iusto vitae qui velit soluta molestias ipsum vero odio tenetur eaque at dolore. Culpa rem consequuntur corporis totam fugiat?</p>
+                            <p class="text-danger casestudy pt-3">
+                                CaseStudy:
+                                <span class="text-dark">Meta Verse Market Opportunity</span>
+                            </p>
+                            <p class="d-flex assessment">
+                                Assessment
+                                <span class="text-danger  px-2 ">
+                                    <i class="bi bi-arrow-right   "></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" experts text-white">
+            <div class="container py-5">
+                <h4 class="text-center text-white my-sm-5">
+                    10
+                    <span class="text-danger">EQS</span>
+                    Services
+                </h4>
+                <div>
+                    <h5 class="py-3">Consulting Project</h5>
+                    <div class="row text-justify d-flex align-items-stretch my-sm-5">
+                        <div class="col-md-4 mb-2 ">
+                            <div class="mr-2 border-0 p-3 experts-col h-100">
+                                <i class="bi bi-person-workspace h1 icons  text-white"></i>
+                                <h6>10EQS Sprint</h6>
+                                <p>
+                                    Fast turnaround project – get up to speed on 
+                                critical initiatives & test your hypotheses on 
+                                market size & dynamics, competitive landscape, 
+                                and due diligence
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="mr-2 border-0 p-3 experts-col h-100">
+                                <i class="bi bi-quora h1 icons  text-white"></i>
+                                <h6>
+                                    10EQS Standard
+                                </h6>
+                                <p>
+                                    Typical 10EQS project – w ell suited f or detailed 
+                                market assessments, competitor analyses, 
+                                voice of  the customer, benchmarking & best 
+                                practices studies
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="mr-2 border-0 p-3 experts-col h-100">
+                                <i class="bi bi-hand-thumbs-up h1 icons  text-white"></i>
+                                <h6>  10EQS Complext</h6>
+                                <p>
+                                    Complex scope projects – global market 
+                                analyses, grow th & go-to -market deep dives 
+                                on multiple target geographies, industry 
+                                verticals, customer segme
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="py-3">Experts Insights</h5>
+                    <div class="row text-justify d-flex align-items-stretch my-sm-5">
+                        <div class="col-md-4 mb-2">
+                            <div class="mr-2 border-0 p-3 experts-col h-100">
+                                <i class="bi bi-speedometer2 h1 icons  text-white"></i>
+                                <h6>Experts interviews</h6>
+                                <p>Qualitative primary research. We conduct double-blind in-depth interviews with custom-sourced industry experts. Our experienced project managers/consultants will develop a questionnaire with you and deliver transcripts, as well as a short summary report.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="mr-2 border-0 p-3 experts-col h-100">
+                                <i class="bi bi-safe2 h1 icons  text-white"></i>
+                                <h6>10EQS Sprint</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi unde consectetur nam vel minima commodi vitae molestias sit vero veniam.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="mr-2 border-0 p-3 experts-col h-100">
+                                <i class="bi bi-puzzle-fill h1 icons  text-white"></i>
+                                <h6>10EQS Sprint</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi unde consectetur nam vel minima commodi vitae molestias sit vero veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-md-6 p-0 m-0">
+                    <img src="./Assets/featured3.png" alt="Image Description" class="img-fluid w-100 h-100 featuredimg mb-3">
+                </div>
+                <div class="col-md-6">
+                    <div class="align-middle text-justify m-sm-5 p-5">
+                        <h6 class="text-danger">Featured Customer Success Story</h6>
+                        <h4>Adjacent Strategy Statement</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos expedita aspernatur maxime animi facilis laboriosam optio consequuntur ad doloribus! Vel quaerat perferendis autem, eum velit consectetur officiis aperiam aut dignissimos!</p>
+                        <button class="text-white bg-danger my-4 p-2 border-0" type="button">Contact US</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex justify-content-between  mt-5 mb-2">
+                <h5 class="font-weight-bold ">10EQs insights</h5>
+                <p class="text-danger  d-flex align-items-center">
+                    View All Case studies
+                    <span class="h2 m-2  ">
+                        <i class="bi bi-arrow-right h-100"></i>
+                    </span>
+                </p>
+            </div>
+            <div class="owl-carousel ">
+                <div class="item ">
+                    <img src="./Assets/featured.png" alt="Image 1">
+                    <div class="m-2">
+                    <h6>Adjancy Strategy Assestment</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat error eveniet ad porro alias.</p>
+                    <p class="text-danger my-2">
+                        Read more
+                        <span class=" ">
+                            <i class="bi bi-arrow-right"></i>
+                        </span>
+                    </p>
+                </div>
+                </div>
+                <div class="item">
+                    <img src="./Assets/featured2.png" alt="Image 2">
+                    <div class="m-2">
+                    <h6>Adjancy Strategy Assestment</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat error eveniet ad porro alias.</p>
+                    <p class="text-danger my-2">
+                        Read more
+                        <span>
+                            <i class="bi bi-arrow-right"></i>
+                        </span>
+                    </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./Assets/featured3.png" alt="Image 3">
+                    <div class="m-2">
+                        <h6>Adjancy Strategy Assestment</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat error eveniet ad porro alias.</p>
+                        <p class="text-danger my-2">
+                            Read more
+                            <span>
+                                <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </p>
+                        </div>
+                </div>
+                <div class="item">
+                    <img src="./Assets/featured1.png" alt="Image 1">
+                    <div class="m-2">
+                        <h6>Adjancy Strategy Assestment</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat error eveniet ad porro alias.</p>
+                        <p class="text-danger my-2">
+                            Read more
+                            <span>
+                                <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </p>
+                        </div>
+                </div>
+                <div class="item">
+                    <img src="./Assets/featured2.png" alt="Image 2">
+                    <div class="m-2">
+                        <h6>Adjancy Strategy Assestment</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat error eveniet ad porro alias.</p>
+                        <p class="text-danger my-2">
+                            Read more
+                            <span>
+                                <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </p>
+                        </div>
+                </div>
+                <div class="item">
+                    <img src="./Assets/featured3.png" alt="Image 3">
+                    <div class="m-2">
+                        <h6>Adjancy Strategy Assestment</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellat error eveniet ad porro alias.</p>
+                        <p class="text-danger my-2">
+                            Read more
+                            <span>
+                                <i class="bi bi-arrow-right"></i>
+                            </span>
+                        </p>
+                        </div>
+                </div>
+                <!-- Add more items as needed -->
+            </div>
+        </div>
+        <div class="container-fluid EQSteam text-white p-4 p-sm-5">
+            <h4 class="text-center  text-white p-2 p-sm-5 font-weight-bold">10EQS Team</h4>
+            <div class="container">
+            <div class="row ">
+                <div class="col-md-3 py-2">
+                    <h5 class="font-weight-bold ">Consultants</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aperiam repudiandae magni voluptas beatae autem iusto quod officiis possimus cupiditate.</p>
+                </div>
+                <div class="col-md-3 py-2">
+                    <h5 class="font-weight-bold ">Industry Experts-</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aperiam repudiandae magni voluptas beatae autem iusto quod officiis possimus cupiditate.</p>
+                </div>
+                <div class="col-md-3 py-2">
+                    <h5 class="font-weight-bold ">Analytics-</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aperiam repudiandae magni voluptas beatae autem iusto quod officiis possimus cupiditate.</p>
+                </div>
+                <div class="col-md-3 py-2">
+                    <h5 class="font-weight-bold ">10EQs PMO-</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, aperiam repudiandae magni voluptas beatae autem iusto quod officiis possimus cupiditate.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container team mt-5 ">
+            <div class="my-5">
+                <h4 class="">Our Team</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, vitae.</p>
+            </div>
+            <div class="row  ">
+                <div class="col-lg-4 col-md-6 mb-sm-5 p-4">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <img
+                                src="./Assets/featured4.png"
+                                alt="img"
+                                class="img-fluid rounded-circle "
+                              
+                            >
+                        </div>
+                        <div class="col-8">
+                            <p class="font-weight-bold">Full Name</p>
+                            <p>Job Title</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-sm-5 p-4">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <img
+                                src="./Assets/featured4.png"
+                                alt="img"
+                                class="img-fluid rounded-circle "
+                              
+                            >
+                        </div>
+                        <div class="col-8">
+                            <p class="font-weight-bold">Full Name</p>
+                            <p>Job Title</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-sm-5 p-4">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <img
+                                src="./Assets/featured5.png"
+                                alt="img"
+                                class="img-fluid rounded-circle "
+                              
+                            >
+                        </div>
+                        <div class="col-8">
+                            <p class="font-weight-bold">Full Name</p>
+                            <p>Job Title</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-sm-5 p-4">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <img
+                                src="./Assets/featured6.png"
+                                alt="img"
+                                class="img-fluid rounded-circle "
+                              
+                            >
+                        </div>
+                        <div class="col-8">
+                            <p class="font-weight-bold">Full Name</p>
+                            <p>Job Title</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-sm-5 p-4">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <img
+                                src="./Assets/featured7.png"
+                                alt="img"
+                                class="img-fluid rounded-circle "
+                              
+                            >
+                        </div>
+                        <div class="col-8">
+                            <p class="font-weight-bold">Full Name</p>
+                            <p>Job Title</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-sm-5 p-4">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <img
+                                src="./Assets/featured8.png"
+                                alt="img"
+                                class="img-fluid rounded-circle "
+                              
+                            >
+                        </div>
+                        <div class="col-8 ">
+                            <p class="font-weight-bold ">Full Name</p>
+                            <p>Job Title</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quae?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" banner  p-2 text-white">
+            <div class="container">
+            <div class="row my-5 ">
+              <div class="col-md-6 pr-sm-5">
+                  <h4 class="text-white  my-sm-5">"10EQS helped us with prioritizing new growth opportunities and exploring which one to pursue"</h4>
+                  <p class="text-danger">life science marketing strategy leader chemical material company</p>
+              </div>
+              <div class="col-md-6 pl-sm-5">
+                  <h4 class="my-sm-5 my-4">Our Clients</h4>
+                  <div class="row  ml-sm-2">
+                      <div class="mb-5">
+                          <div class="clientrow ">
+                              <div class="left"></div>
+                              <div class="right p-2">
+                                  <h6 class="font-weight-bold">Global Chemical Materials</h6>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, sapiente. Ducimus eum ex nesciunt pe</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="mb-5">
+                          <div class="clientrow">
+                              <div class="left"></div>
+                              <div class="right p-2">
+                                  <h6 class="font-weight-bold">Professional Service Firms</h6>
+                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum earum itaque laudantium, quae saepe rep</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+            </div>
+        </div>
+          </div>
+          <div class="container py-5 ">
+            <h4 class="  font-weight-bold">
+                Why 10
+                <span class="text-danger">EQS?</span>
+            </h4>
+            <div class="d-flex ">
+                <h6 class="my-2">
+                    <span class="text-danger">E</span>fficiency,
+                    <span class="text-danger">Q</span>uality ,
+                    <span class="text-danger">S</span>peed
+                </h6>
+                <button class=" btn-outline-danger px-2 ml-4 mb-2 btnred">times 10</button>
+            </div>
+            <div class="row text-justify mt-4">
+                <div class="col-md-4 p-2 ">
+                    <div class="mr-2  p-3  border">
+                        <i class="icons bi bi-bar-chart-fill h1 text-danger"></i>
+                        <h6  class="font-weight-bold">Experts interviews</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi unde consectetur nam vel minima commodi vitae molestias sit vero veniam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="mr-2  p-3 border">
+                        <i class="icons bi bi-check2  h1 text-danger "></i>
+                        <h6  class="font-weight-bold">10EQS Sprint</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi unde consectetur nam vel minima commodi vitae molestias sit vero veniam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="mr-2  p-3 border">
+                        <i class="icons bi bi-clock-fill h1 text-danger"></i>
+                        <h6  class="font-weight-bold">10EQS Sprint</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi unde consectetur nam vel minima commodi vitae molestias sit vero veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid contactdiv my-sm-5 text-white">
+            <div class="container">
+            <div class="row">
+                <div class="sidecontent  col-md-5">
+                    <h4 class="  my-5">How to engage  10EQS</h4>
+                    <div class="my-sm-5 ">
+                        <div class="d-flex py-3">
+                            <div class="square-container">
+                                <i class="contact-icons bi bi-search"></i>
+                            </div>
+                            <div>
+                                <h6>Scoping</h6>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, sed!</p>
+                            </div>
+                        </div>
+                        <div class="d-flex py-3">
+                            <div class="square-container">
+                                <i class="contact-icons bi bi-people-fill"></i>
+                            </div>
+                            <div>
+                                <h6>Initiation</h6>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, eos.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex py-3 ">
+                            <div class="square-container">
+                                <i class="contact-icons bi bi-envelope-dash"></i>
+                            </div>
+                            <div>
+                                <h6>Delivery</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, modi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact p-5 col-md-7">
+                    <div class="container ">
+                        <h6>Contact Page</h6>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input
+                                            type="text"
+                                            class="form-control blue-border"
+                                            id="firstName"
+                                            placeholder="Enter first name"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="lastName">Last Name</label>
+                                        <input
+                                            type="text"
+                                            class="form-control blue-border"
+                                            id="lastName"
+                                            placeholder="Enter last name"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input
+                                            type="email"
+                                            class="form-control blue-border"
+                                            id="email"
+                                            placeholder="Enter email"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="jobTitle">Job Title</label>
+                                        <input
+                                            type="text"
+                                            class="form-control blue-border"
+                                            id="jobTitle"
+                                            placeholder="Enter job title"
+                                        >
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="companyName">Company Name</label>
+                                        <input
+                                            type="text"
+                                            class="form-control blue-border"
+                                            id="companyName"
+                                            placeholder="Enter company name"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="companySize">Company Size</label>
+                                        <select class="form-control blue-border custom-select-width" id="companySize" >
+                                            <option value="">Select a company</option>
+                                            <option value="1-10">1-10 employees</option>
+                                            <option value="11-50">11-50 employees</option>
+                                            <option value="51-100">51-100 employees</option>
+                                            <!-- Add more options as needed -->
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="region">Region</label>
+                                        <select class="form-control blue-border custom-select-width" id="region">
+                                            <option value="">Select a region</option>
+                                            <option value="North America">North America</option>
+                                            <option value="Europe">Europe</option>
+                                            <option value="Asia">Asia</option>
+                                            <!-- Add more options as needed -->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="description">Description</label>
+                                        <textarea
+                                            class="form-control blue-border"
+                                            id="description"
+                                            rows="7"
+                                            placeholder="Enter description"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-danger my-2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5 ">
+            <div class=" col-12 col-md-5">
+                <div >
+                <h6 class=" font-weight-bold mb-3">LOGO</h6>
+                <p>Join our newsletter to up to daton feature and release</p>
+                <form class="newsletter my-2">
+                    <input placeholder="Enter your email" class="inputfield border-0">
+                 <button class="submit border-0 ">Subscribe</button>
+                </form>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni veritatis repellendus .</p>
+            </div>
+            </div>
+            <div class=" col-12 col-md-7 ">
+                <div class="row ">
+                    <div class="col-4 col-md-4 ">
+                        <p class="mb-3  ">Column 1</p>
+                        <ul class="m-0 p-0 links ">
+                           
+                            <li>first link</li>
+                            <li>second link</li>
+                            <li>Third link</li>
+                            <li>Fourth link</li>
+                            <li>Fifth link</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-4 ">
+                        <p class="mb-3 ">Column 1</p>
+                        <ul class=" m-0 p-0 links">
+                           
+                            <li>first link</li>
+                            <li>second link</li>
+                            <li>Third link</li>
+                            <li>Fourth link</li>
+                            <li>Fifth link</li>
+                        </ul>
+                    </div>
+                    <div class="col-4 col-md-4 ">
+                        <p   class=" mb-3">Follow Us</p>
+                        <ul class="m-0 p-0 links">
+                          
+                            <li>
+                                <i class="bi bi-facebook  text-dark pr-2"></i>first link
+                            </li>
+                            <li>
+                                <i class="bi bi-instagram pr-2 "></i>second link
+                            </li>
+                            <li>
+                                <i class="bi bi-twitter pr-2"></i>Third link
+                            </li>
+                            <li>
+                                <i class="bi bi-linkedin pr-2 "></i>Fourth link
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        <div class="container mb-5">
+            <hr class="text-dark separator">
+                <div class="justify-content-between p-2   d-sm-flex">
+                    <div>
+                        <p>>@2023 Relume, All right Reserved</p></div>
+                    <div class="d-flex footer-content ">
+                        <p class="mr-3 ">privacy policy</p>
+                        <p class="mr-3">Terms of Service</p>
+                        <p class=""> Cookie Setting</p>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
