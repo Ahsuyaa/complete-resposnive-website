@@ -26,9 +26,36 @@ h4{
   font-size: 24px;
 }
 p{
-  font-size: 16px;
+  font-size: 18px;
 }
+.textdanger {
+  color: red;
+}
+.customs-container {
+  width: 80%; /* Customize the width as per your requirement */
+  max-width: 1200px; /* Optionally, set a maximum width to avoid excessive expansion on larger screens */
+  margin:  auto; 
 
+}
+.nav-container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button a {
+  color:#ffffff;
+}
+button a:hover {
+  color:#ffffff;
+  text-decoration: none;
+}
+ a {
+  color:#000;
+}
+ a:hover {
+  color:#000;
+  text-decoration: none;
+}
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
   color: #000;
@@ -53,6 +80,7 @@ p{
   margin: 20px;
 
 }
+
 
 .dropdown-toggle::after {
   display: inline-block;
@@ -109,7 +137,9 @@ p{
   background-color: rgb(23, 30, 36);
 }
 
-
+.carousel-section {
+  background-color: rgb(244, 249, 253);
+}
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel .owl-nav button.owl-next {
   position: absolute;
@@ -150,10 +180,15 @@ p{
 .item {
   padding: 10px;
 }
+.object-fit-cover {
+  background-size: cover;
+  background-position: center center;
+}
 
 .clientrow {
   display: flex;
   background-color: #1d1d1d;
+  border: 1px solid rgb(32, 48, 53);
 }
 
 .clientrow .left {
@@ -162,8 +197,8 @@ p{
 }
 
 .square-container {
-  width: 65px;
-  height: 40px;
+  width: 50px; /* Set width and height to the same value to make it a perfect square */
+  height: 50px; /* Set height to the same value as the width */
   border-radius: 5px;
   border: 2px solid rgb(196, 151, 157);
   display: flex;
@@ -173,6 +208,7 @@ p{
   margin-right: 15px;
   background-color: rgb(114, 113, 113);
 }
+
 
 .blue-border {
   border: 1px solid rgb(32, 48, 53);
@@ -233,9 +269,14 @@ p {
 .nav-link:hover,.dropdown-item:hover {
 background-color: rgb(235, 111, 111);
 }
-.icon{
-  font-size: 18px;
+.icons{
+  font-size: 75px;
 
+}
+.icon{
+  font-size: 20px;
+ 
+  font-weight: 900;
 }
 .icon:hover {
   display: inline-block;
@@ -267,9 +308,13 @@ height: 700px;
 .team .col-lg-4:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.team .col-lg-4 {
+ 
+  transition: box-shadow 0.5s ease;
+}
 
 .pulse:hover {
-  animation: pulse-out 1s forwards;
+  animation: pulse-out 2s forwards;
 }
 
 @keyframes pulse-out {
@@ -282,6 +327,7 @@ height: 700px;
   100% {
     transform: scale(1);
   }
+
 }
 
 .custom-select-width {
