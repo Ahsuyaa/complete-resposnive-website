@@ -29,7 +29,7 @@ p{
   font-size: 18px;
 }
 .textdanger {
-  color: red;
+  color:rgb(224, 0, 0);
 }
 .customs-container {
   width: 80%; /* Customize the width as per your requirement */
@@ -53,7 +53,7 @@ button a:hover {
   color:#000;
 }
  a:hover {
-  color:#000;
+ color:rgb(224, 0, 0);
   text-decoration: none;
 }
 .navbar-light .navbar-nav .nav-link {
