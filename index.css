@@ -282,7 +282,7 @@ background-color: rgb(235, 111, 111);
   display: inline-block;
   transition: transform 0.5s ease;
   transform: translateX(10px);
-  color: darkred;
+  color:rgb(224, 0, 0);
 }
 .assessment,.slide {
   position: relative;
