@@ -25,11 +25,14 @@ h3 {
 h4{
   font-size: 24px;
 }
+h4{
+  font-size: 20px;
+}
 p{
   font-size: 18px;
 }
 .textdanger {
-  color:rgb(224, 0, 0);
+  color:#da222f;
 }
 .customs-container {
   width: 80%; /* Customize the width as per your requirement */
@@ -53,7 +56,7 @@ button a:hover {
   color:#000;
 }
  a:hover {
- color:rgb(224, 0, 0);
+ color:#da222f;
   text-decoration: none;
 }
 .navbar-light .navbar-nav .nav-link {
@@ -130,11 +133,11 @@ button a:hover {
 .EQSteam,
 .banner,
 .contactdiv {
-  background-color: rgb(0, 11, 26);
+  background-color: #101828;
 }
 
 .experts-col {
-  background-color: rgb(23, 30, 36);
+  background-color: #1d2938;
 }
 
 .carousel-section {
@@ -187,13 +190,13 @@ button a:hover {
 
 .clientrow {
   display: flex;
-  background-color: #1d1d1d;
+  background-color: #1d2938;
   border: 1px solid rgb(32, 48, 53);
 }
 
 .clientrow .left {
   width: 1%;
-  background-color: red;
+  background-color: #da222f;
 }
 
 .square-container {
@@ -204,9 +207,9 @@ button a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: red;
+  color: #da222f;
   margin-right: 15px;
-  background-color: rgb(114, 113, 113);
+  background-color: #3f4552;
 }
 
 
@@ -280,20 +283,20 @@ p {
   display: inline-block;
   transition: transform 0.5s ease;
   transform: translateX(10px);
-  color:rgb(224, 0, 0);
+  color:#da222f;
 }
-.assessment,.slide {
+.description p:nth-of-type(3),.item p:nth-of-type(2) {
   position: relative;
   cursor: pointer;
 }
-.assessment:hover .icon,.slide:hover .icon{
+.description p:nth-of-type(3):hover .icon,.item p:nth-of-type(2):hover .icon{
   display: inline-block;
   transition: transform 0.5s ease;
   transform: translateX(10px);
 
 }
-.assessment:hover{
-  color: rgb(216, 39, 39);
+.description p:nth-of-type(3):hover{
+  color: #da222f;
 }
 .custom-container {
   max-width: 3000px;
