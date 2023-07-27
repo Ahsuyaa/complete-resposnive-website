@@ -40,18 +40,8 @@ p{
   margin:  auto; 
 
 }
-.nav-container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-button a {
-  color:#ffffff;
-}
-button a:hover {
-  color:#ffffff;
-  text-decoration: none;
-}
+
+
  a {
   color:#000;
 }
@@ -59,61 +49,6 @@ button a:hover {
  color:#da222f;
   text-decoration: none;
 }
-.navbar-light .navbar-nav .nav-link {
-  font-size: 18px;
-  color: #000;
-}
-
-.navbar-nav {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-
-.navbar-nav .nav-item {
-  text-align: center;
-}
-
-.navbar-nav .btn {
-  margin-left: auto;
-  margin-right: 15px;
-}
-
-.dropdown-menu {
-  margin: 20px;
-
-}
-
-
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-left: 0.255em;
-  
-  vertical-align: 0.255em;
-  content: "";
-  border: solid #000;
-  border-width: 0 1px 1px 0;
-  width: 5px;
-  padding: 3px;
-  transform: rotate(45deg);
-  transition: transform 0.3s;
- 
-}
-.show.dropdown-toggle::after {
-  transform: rotate(-135deg);
-}
-
-
-.navbar-toggler-icon {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
-.navbar-toggler {
-  font-size: 5px;
-
-}
-
 
 .home {
   position: relative;
@@ -333,4 +268,27 @@ height: 700px;
 
 .custom-select-width {
   height: 50px; /* Set the desired height for select fields */
+}
+.hs-form-e77ed74b-90b0-44bb-8a19-b7bf4e127a17_c24808e1-dfba-41009e27-ee81d127f0ed .hs-richtext,.hs-form-e77ed74b-90b0-44bb-8a19-b7bf4e127a17_c24808e1-dfba-41009e27-ee81d127f0ed .hs-form-field label:not(.hs-error-msg),.hs-form-e77ed74b-90b0-44bb-8a19-b7bf4e127a17_c24808e1-dfba-41009e27-ee81d127f0ed .legal-consent-container .hs-richtext{
+  color:#fff;
+}
+.hs-form-e77ed74b-90b0-44bb-8a19-b7bf4e127a17_c24808e1-dfba-41009e27-ee81d127f0ed .hs-button{
+background-color: #dc3545;
+border-radius: 1px solid #dc3545;
+}
+.square-container  i {
+  font-size: 25px;
+}
+.single-solutions .container{
+  padding: 0px;
+}
+
+.custom-container img{
+  max-width: 4000px;
+}
+.equal-height-container {
+  display: flex;
+}
+.equal-height-container .col-lg-4 {
+  flex: 1;
 }
